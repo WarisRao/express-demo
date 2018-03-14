@@ -1,0 +1,8 @@
+Sick of restarting your server?
+So far, when you change your code, you have to stop your server and start it again.
+This can get repetitive! To alleviate this problem, you can install a tool called node-
+mon, which will watch all of your files for changes and restart if it detects any.
+You can install nodemon by running npm install nodemon --global.
+Once it’s installed, you can start a file in watch mode by replacing node with nodemon
+in your command. If you typed node app.js earlier, just change it to nodemon app.js,
+and your app will continuously reload when it changes.
